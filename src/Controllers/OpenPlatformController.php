@@ -9,20 +9,25 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\LaravelWeChat\Controllers;
+namespace Irooit\LaravelWeChat\Controllers;
 
 use EasyWeChat\OpenPlatform\Application;
 use EasyWeChat\OpenPlatform\Server\Guard;
-use Overtrue\LaravelWeChat\Events\OpenPlatform as Events;
+use Irooit\LaravelWeChat\Events\OpenPlatform as Events;
 
 class OpenPlatformController extends Controller
 {
     /**
-     * Register for open platform.
-     *
-     * @param \EasyWeChat\OpenPlatform\Application $application
-     *
+     * DESCRIPTION:
+     * DATE: 2021-03-28
+     * TIME: 00:28
+     * AUTHOR: hongcoo
+     * @param Application $application
      * @return \Symfony\Component\HttpFoundation\Response
+     * @throws \EasyWeChat\Kernel\Exceptions\BadRequestException
+     * @throws \EasyWeChat\Kernel\Exceptions\InvalidArgumentException
+     * @throws \EasyWeChat\Kernel\Exceptions\InvalidConfigException
+     * @throws \ReflectionException
      */
     public function __invoke(Application $application)
     {
