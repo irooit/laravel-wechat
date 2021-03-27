@@ -1,17 +1,17 @@
 {
-    "name": "overtrue/laravel-wechat",
+    "name": "irooit/laravel-wechat",
     "description": "微信 SDK for Laravel",
     "keywords": ["wechat", "weixin","laravel", "sdk"],
     "license": "MIT",
     "authors": [
         {
-            "name": "overtrue",
-            "email": "anzhengchao@gmail.com"
+            "name": "irooit",
+            "email": "hi@rooit.com"
         }
     ],
     "require": {
         "illuminate/container": "^5.1 || ^6.0 || ^7.0 || ^8.0",
-        "overtrue/wechat": "^5.0"
+        "irooit/wechat": "^5.5"
     },
     "require-dev": {
         "laravel/framework": "^8.5",
@@ -30,6 +30,12 @@
             "aliases": {
                 "EasyWeChat": "Overtrue\\LaravelWeChat\\Facade"
             }
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.cloud.tencent.com/composer/"
         }
     }
 }
