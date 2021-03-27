@@ -11,7 +11,7 @@
     ],
     "require": {
         "illuminate/container": "^5.1 || ^6.0 || ^7.0 || ^8.0",
-        "irooit/wechat": "^5.5.1"
+        "irooit/wechat": "5.5.1"
     },
     "require-dev": {
         "laravel/framework": "^8.5",
@@ -25,17 +25,17 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Overtrue\\LaravelWeChat\\ServiceProvider"
+                "Iooit\\LaravelWeChat\\ServiceProvider"
             ],
             "aliases": {
-                "EasyWeChat": "Overtrue\\LaravelWeChat\\Facade"
+                "EasyWeChat": "Iooit\\LaravelWeChat\\Facade"
             }
         }
     },
     "repositories": {
         "packagist": {
             "type": "composer",
-            "url": "https://mirrors.cloud.tencent.com/composer/"
+            "url": "https://mirrors.aliyun.com/composer/"
         }
     }
 }
