@@ -25,10 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Iooit\\LaravelWeChat\\ServiceProvider"
+                "Irooit\\LaravelWeChat\\ServiceProvider"
             ],
             "aliases": {
-                "EasyWeChat": "Iooit\\LaravelWeChat\\Facade"
+                "EasyWeChat": "Irooit\\LaravelWeChat\\Facade"
             }
         }
     },
